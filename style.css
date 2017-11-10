@@ -13,12 +13,15 @@ footer{
   position: relative;
   bottom: 0;
 }
+.center{
+  text-align: center;
+}
 .wrapper{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 1fr);
     grid-template-areas:
-      "kö"
+      "ko"
       "ky"
       "fi"
       "ha"
@@ -44,8 +47,8 @@ footer{
   margin-top: 2%;
   text-align: center;
 }
-#kött {
-    grid-area: kö;
+#kott {
+    grid-area: ko;
 }
 #Kyckling {
     grid-area: ky;
@@ -68,14 +71,14 @@ footer{
 #Nyhet{
   grid-area: ny;
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 750px) {
   .wrapper{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 1%;
     grid-template-areas:
-    "kö ky fi"
+    "ko ky fi"
     "ha pn ch"
     ". to .";
   }
