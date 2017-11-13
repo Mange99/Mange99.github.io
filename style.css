@@ -71,7 +71,7 @@ footer{
 #Nyhet{
   grid-area: ny;
 }
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 500px) {
   .wrapper{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -83,7 +83,7 @@ footer{
     ". to .";
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
  .topnav a:not(:first-child) {display: none;}
  .topnav a.icon {
    float: right;
