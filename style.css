@@ -71,7 +71,7 @@ footer{
 #Nyhet{
   grid-area: ny;
 }
-@media screen and (min-width: 200px) {
+@media screen and (min-width: 500px) {
   .wrapper{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
