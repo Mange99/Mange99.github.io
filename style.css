@@ -135,7 +135,7 @@ body{
     grid-column: 3/9;
   }
 }
-#img{
+.img{
         display: block;
         margin: auto;
         width: 35%;
