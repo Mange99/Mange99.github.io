@@ -77,7 +77,7 @@ img{
 .active, .dot:hover {
   background-color: black;
 }
-/* Fading animation */
+/* För att fadea in bilderna ser bättre ut*/ 
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
