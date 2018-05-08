@@ -2,7 +2,7 @@ $(document).ready(function() {
   var visa = document.getElementsByTagName('*');
   for(var i = 0; i< visa.length; i++){
     visa[i].style.visibility = "visible";
-    $('#jsoff').hide();
+    $('.jsoff').hide();
   }
   var slideIndex = 1;
   showSlides(slideIndex);
