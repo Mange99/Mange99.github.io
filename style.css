@@ -2,13 +2,12 @@
   box-sizing: border-box;
   visibility:hidden;
 }
-#jsoff{
+.jsoff {
   visibility: visible;
 }
 body{
   font-family: serif;
   margin:0;
-/*  background-color: blue;*/
 }
 
 .mySlides fade{
