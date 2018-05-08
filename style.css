@@ -1,7 +1,10 @@
 *{
-  box-sizing: border-box
+  box-sizing: border-box;
+  visibility:hidden;
 }
-
+#jsoff{
+  visibility: visible;
+}
 body{
   font-family: serif;
   margin:0;
