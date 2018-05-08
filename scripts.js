@@ -1,5 +1,9 @@
 $(document).ready(function() {
-
+  var visa = document.getElementsByTagName('*');
+  for(var i = 0; i< visa.length; i++){
+    visa[i].style.visibility = "visible";
+    $('#jsoff').hide();
+  }
   var slideIndex = 1;
   showSlides(slideIndex);
 
@@ -25,7 +29,6 @@ $(document).ready(function() {
   function currentSlide(i) {
     showSlides(slideIndex = i);
   }
-
   function showSlides(n) {
     var i;
     var slides = document.getElementsByClassName("mySlides");
@@ -51,6 +54,7 @@ $(document).ready(function() {
       console.log("autorun");
     } else {
       console.log("clearauto")
+
       autoRunning = false;
       clearInterval(auto);
     }
